@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: H200 Pretraining and Optimizer Lab
+message: Please cite this software and evidence package if you use it.
+type: software
+authors:
+  - name: hang154
+date-released: 2026-09-28
+license: MIT
+version: 1.0.0
+
