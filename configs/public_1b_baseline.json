@@ -1,0 +1,20 @@
+{
+  "model_config": "EleutherAI/pythia-1b",
+  "tokenizer": "EleutherAI/pythia-1b",
+  "train_bin": "data/wikitext_train.bin",
+  "val_bin": "data/wikitext_val.bin",
+  "dtype": "uint16",
+  "steps": 2000,
+  "seq_len": 2048,
+  "micro_batch": 1,
+  "grad_accum": 4,
+  "optimizer": "adamw",
+  "lr": 0.0002,
+  "beta1": 0.9,
+  "beta2": 0.95,
+  "weight_decay": 0.1,
+  "warmup_ratio": 0.01,
+  "seed": 42,
+  "eval_batches": 20,
+  "tag": "long1b_baseline"
+}

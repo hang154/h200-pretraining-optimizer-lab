@@ -9,4 +9,4 @@ jobs:
         with: {python-version: "3.11"}
       - run: python -m py_compile scripts/*.py
       - run: python scripts/validate_claims.py
-
+      - run: python scripts/plot_results.py && git diff --exit-code plots/
