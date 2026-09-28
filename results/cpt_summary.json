@@ -1,0 +1,22 @@
+{
+  "tag": "gsm8k_cpt",
+  "seed": 52,
+  "params": 1011781632,
+  "steps": 220,
+  "seq_len": 1024,
+  "micro_batch": 1,
+  "grad_accum": 4,
+  "lr": 5e-05,
+  "beta1": 0.9,
+  "beta2": 0.95,
+  "weight_decay": 0.05,
+  "warmup_ratio": 0.03,
+  "train_loss_tail": 18.403742504119872,
+  "val_loss": 4.556031346321106,
+  "tokens_seen": 901120,
+  "elapsed_sec": 58.64191508293152,
+  "tokens_per_sec": 15366.48314990454,
+  "peak_gpu_gb": 8.253100872039795,
+  "gpu": "NVIDIA H200",
+  "resume_model": "artifacts/adamw/confirm/best_long/model"
+}
