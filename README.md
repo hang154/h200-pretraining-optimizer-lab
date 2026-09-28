@@ -3,6 +3,8 @@
 Reproducible evidence from scratch pretraining, optimizer studies, continued
 pretraining, and recovery tests on NVIDIA H200 GPUs.
 
+Hugging Face artifacts: [evidence dataset](https://huggingface.co/datasets/hang010412/h200-training-evidence) · [portfolio collection](https://huggingface.co/collections/hang010412/h200-training-and-post-training-portfolio-2026-09-6aba3f860fbd297da8c7fd51)
+
 ## Measured results
 
 | Run | Parameters | Optimizer | Tokens | Validation loss | tok/s | Peak HBM GiB |
@@ -44,4 +46,3 @@ python -m py_compile scripts/*.py
 
 This repository documents bounded experiments and hands-on execution. It does
 not claim converged web-scale pretraining or years of production ownership.
-
